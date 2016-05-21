@@ -1,6 +1,6 @@
 FROM colstrom/alpine
 
-RUN apk-install jq
+RUN package install jq
 
 ENTRYPOINT ["jq"]
 CMD ["-h"]
